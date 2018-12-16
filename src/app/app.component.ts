@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'QuantUI';
+
+  public symbol: string;
+  public startDate: string;
+  public endDate: string;
+  
+  title = 'Algoz India';
 }
